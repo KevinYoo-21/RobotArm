@@ -4,7 +4,7 @@ A 5-DOF robotic arm with gripper, controlled wirelessly over Bluetooth from an 8
 
 ## Overview
 
-The arm uses four MG996R servos for the main joints and two MG90S servos for the wrist and gripper. Each joint is mapped to a controller input — analog sticks drive the main joints with rate control (stick deflection sets speed), and the shoulder buttons and triggers drive the wrist and gripper. Input is smoothed with an exponential moving average to reduce servo jitter, and each channel has tunable pulse-width bounds.
+The arm uses four MG996R servos for the main joints and two MG90S servos for the wrist and gripper. Each joint is mapped to a controller input, analog sticks drive the main joints with rate control (stick deflection sets speed), and the shoulder buttons and triggers drive the wrist and gripper. Input is smoothed with an exponential moving average to reduce servo jitter, and each channel has tunable pulse-width bounds.
 
 ## Hardware
 
