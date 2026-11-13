@@ -1,5 +1,5 @@
 # RobotArm
-
+<img src="Roboit.jpeg" alt="6-DOF robot arm" width="500">
 A 5-DOF robotic arm with gripper, controlled wirelessly over Bluetooth from an 8BitDo SN30 Pro game controller. An ESP32 running [Bluepad32](https://github.com/ricardoquesada/bluepad32) receives controller input and drives six servos through a PCA9685 PWM driver using rate-based control.
 
 ## Overview
